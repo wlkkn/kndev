@@ -15,7 +15,7 @@
 ### 无参数
 
 ```js
-var jtDev = require('jtdev');
+var jtDev = require('kndev');
 var app = expresss();
 app.use(jtDev.coffee.parser());
 ```
@@ -29,7 +29,7 @@ app.use(jtDev.coffee.parser());
 ### staticPath 静态文件的存放目录
 
 ```js
-var jtDev = require('jtdev');
+var jtDev = require('kndev');
 var app = express();
 app.use(jtDev.ext.converter('/test/statics'));
 ```
@@ -42,7 +42,7 @@ app.use(jtDev.ext.converter('/test/statics'));
 ### staticPath 静态文件的存放目录
 
 ```js
-var jtDev = require('jtdev');
+var jtDev = require('kndev');
 var app = express();
 app.use(jtDev.stylus.parser('/test/statics'));
 ```
